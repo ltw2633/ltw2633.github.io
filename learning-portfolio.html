@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>學習歷程</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    .button {
+      display: inline-block; /* 讓它顯示成區塊型態，像按鈕一樣 */
+      padding: 12px 25px; /* 按鈕內部空間，調整大小 */
+      background-color: #000000; /* 綠色背景 */
+      color: white; /* 文字顏色白色 */
+      text-align: center; /* 讓文字置中 */
+      font-size: 16px; /* 調整文字大小 */
+      border-radius: 8px; /* 圓角效果 */
+      text-decoration: none; /* 移除連結的底線 */
+      transition: background-color 0.3s ease; /* 按下去時的顏色變化 */
+      margin: 10px; /* 增加每個按鈕之間的距離 */
+      min-width: 180px; /* 設置最小寬度，防止按鈕過小 */
+      height: 50px; /* 設置固定高度 */
+      line-height: 50px; /* 垂直居中文本 */
+    }
+
+    /* 加一點互動效果，當滑鼠在按鈕上方時變色 */
+    .button:hover {
+      background-color: #808080; /* 按鈕的顏色稍微變深 */
+	transform: scale(1.1);
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    h1 {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .content {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 導航列 -->
+  <div class="navbar">
+    <a href="index.html">首頁</a>
+    <a href="calculator.html">計算機</a>
+    <a href="learning-portfolio.html">學習歷程</a>
+  </div>
+
+  <h1>學習歷程</h1>
+
+  <!-- 按鈕1 -->
+  <a href="https://epf-mlife.k12ea.gov.tw/Index.do" target="_blank" class="button">前往學習歷程檔案</a>
+  
+  <!-- 按鈕2 -->
+  <a href="https://www.canva.com/zh_tw/" target="_blank" class="button">Canva</a>
+
+  <!-- 按鈕3 -->
+  <a href="https://www.ilovepdf.com/zh-cn" target="_blank" class="button">壓縮檔案</a>
+
+  <!-- 按鈕4 -->
+  <a href="https://hackmd.io/YxYCCicLTEeP8CAdY08JnA" target="_blank" class="button">hackmd</a>
+</body>
+</html>
